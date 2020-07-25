@@ -1,0 +1,120 @@
+body {
+    font-family: sans-serif;
+}
+.order-summary-container {
+    border: 1px solid rgb(233, 227, 227);
+    margin: 15px 20px;
+}
+
+/* HEADER */
+.order-summary-container .order-summary-header {
+    display: flex;
+    flex-direction: row;
+    border-bottom: 1px solid rgb(233, 227, 227);
+    padding: 10px 24px;
+}
+
+.order-summary-container .order-summary-header-title {
+    color: #505F6A;
+    font-weight: bold;
+    flex-grow: 1;
+    font-size: 20px;
+}
+
+.order-summary-container .order-summary-header-help {
+    font-size: 23px;
+}
+
+/* BALANCE AMOUNT */
+.order-summary-container .balance-amount-container {
+    padding: 15px 24px;
+    border-bottom: 1px solid rgb(233, 227, 227);
+}
+.order-summary-container .balance-amount-container > div{
+    display: flex;
+    flex-direction: row;
+    color: #90A1AC;
+}
+
+.balance-amount {
+    padding-bottom: 10px;
+}
+
+.balance-amount .balance-amount-title {
+    flex-grow: 1;
+}
+
+.balance-vat .balance-vat-title {
+    flex-grow: 1;
+}
+
+/* TOTAL */
+.total-cost-container {
+    display: flex;
+    flex-direction: row;
+    padding: 15px 24px;
+    align-items: center;
+}
+
+.total-include-vat {
+    flex-grow: 1;
+}
+
+.total-include-vat .vat-title {
+    color: #8194A1;
+    font-weight: bold;
+}
+
+.total-include-vat .incl-vat {
+    color: rgb(187, 189, 190);
+}
+
+.total-cost-container .total-cost {
+    color: #8A9BA7;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+/* ACCOUNT AFTER TOP UP  */
+.account-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 15px 24px;
+    padding: 13px 10px;
+    border: 1px solid #D8ECFF;
+}
+
+.account-container .account-content {
+    flex-grow: 1;
+}
+
+.account-content .content-top {
+    color: #A5A6A9;
+}
+.account-content .content-name {
+    color: #5A6873;
+}
+
+.account-container .account-cost {
+    color: #1F8FD8;
+    font-size: 20px;
+}
+
+.btn-confirm-order {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 15px 24px;
+}
+
+.btn-confirm-order input[type="button"] {
+    background-color: #1f8fd8;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 100%;
+    padding: 10px 20px;
+    color: #FFF;
+    font-size: 15px;
+    /* box-sizing: border-box; */
+}

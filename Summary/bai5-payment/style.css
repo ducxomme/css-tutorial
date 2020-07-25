@@ -1,0 +1,116 @@
+body {
+    font-family: sans-serif;
+}
+.payment-method-container {
+    border: 1px solid rgb(233, 227, 227);
+    margin: 15px 20px;
+}
+
+.payment-method-container .payment-header {
+    display: flex;
+    flex-direction: row;
+    border-bottom: 1px solid rgb(233, 227, 227);
+    padding: 10px 20px;
+}
+
+.payment-method-container .payment-header-title {
+    color: #505F6A;
+    font-weight: bold;
+    flex-grow: 1;
+    font-size: 20px;
+}
+
+.payment-method-container .payment-header-help {
+    font-size: 23px;
+}
+
+.payment-method-container .main-content-container {
+    padding: 10px 20px;
+}
+
+.main-content-container .card-company-container {
+    display: flex;
+    flex-direction: row;
+}
+
+.main-content-container .payment-card-type {
+    width: 100px;
+    height: 70px;
+    border: 1px solid rgb(164, 197, 240);
+    margin-bottom: 30px;
+    margin-top: 15px;
+}
+
+.main-content-container .visa {
+    background-image: url('./images/visa.jpeg');
+    background-position: center;
+    background-size: cover;
+    margin-right: 20px;
+}
+
+.main-content-container .master {
+    background-image: url('./images/master-card.png');
+    background-position: center;
+    background-size: cover;
+}
+
+.main-content-container input[type="text"] {
+    padding: 9px 12px;
+    font-size: 17px;
+}
+
+.main-content-container .cardholder-name-container {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+
+.main-content-container .card-number-container {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+
+@media (min-width: 700px) {
+    .main-content-container .card-number-container {
+        flex-direction: row;
+        display: flex;
+    }
+    .card-number input[type="text"] {
+        flex-grow: 1;
+    }
+}
+
+.card-number-container .card-number {
+    flex-shrink: 3;
+    flex-grow: 1;
+}
+.card-number-container .card-date {
+    margin-right: 10px;
+}
+
+.card-number input[type="text"] {
+    width: 200px;
+}
+
+.card-date input[type="text"] {
+    width: 100px;
+}
+.card-ccv input[type="text"] {
+    width: 100px;
+}
+
+.payment-method-container .attention-footer{
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 30px;
+}
+.attention-footer i {
+    font-size: 20px;
+    color: #56A6E1;
+}
+
+.attention-footer .attention-message {
+    color: #656565;
+    margin-left: 10px;
+}

@@ -1,0 +1,137 @@
+.team-goal-card {
+    background-color: rgb(227, 245, 236);
+    border-radius: 25px;
+    padding: 30px 40px;
+    font-family: sans-serif;
+  }
+  
+  .team-goal-card > div {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+  
+  .team-goal-card-header {
+    position: relative;
+  }
+  
+  .team-goal-card-header:after {
+    content: "";
+    position: absolute;
+    width: 90%;
+    left: 20px;
+    bottom: 0;
+    border-bottom: 1px solid #aaa;
+  }
+  
+  .team-goal-card-header .team-goal-card-header-icon {
+    font-size: 60px;
+    color: #3fc67c;
+  }
+  .team-goal-card-header-icon i {
+    border-radius: 30px;
+  }
+  
+  .team-goal-card-header .team-goal-card-header-content {
+    margin-left: 20px;
+  }
+  
+  .team-goal-card-header-content .team-goal-header-title {
+    font-size: 20px;
+    color: #4f6b5c;
+  }
+  
+  .team-goal-card-header-content .last-update {
+    color: #9bb1a5;
+    font-size: 15px;
+  }
+  
+  .team-goal-card-middle {
+    margin-top: 20px;
+    margin-left: 13px;
+    position: relative;
+    padding-bottom: 20px;
+  }
+  
+  .team-goal-card-middle .goal-card-icon {
+    font-size: 30px;
+    color: #3fc67c;
+    flex-basis: 50px;
+  }
+  
+  .team-goal-card-middle .goal-card-content {
+    margin-left: 10px;
+    color: #4f6b5c;
+    flex-basis: 200px;
+    flex-grow: 1;
+  }
+  
+  .team-goal-card-middle .goal-card-img-container {
+    display: flex;
+    flex-direction: row;
+    /* justify-content: right; */
+    flex-basis: 150px;
+  }
+  
+  .goal-card-img-container .image-item {
+    /* align-items: flex-end; */
+  }
+  
+  .goal-card-img-container .image-item img {
+    margin-right: 10px;
+    border-radius: 5px;
+  }
+  
+  .team-goal-card-middle:after {
+    content: "";
+    position: absolute;
+    width: 90%;
+    left: 15px;
+    bottom: 0;
+    border-bottom: 1px solid #aaa;
+  }
+  
+  /* FOOTER */
+  
+  .team-goal-card-footer {
+    margin-top: 30px;
+    margin-left: 13px;
+    padding-bottom: 20px;
+    /* justify-content: space-between; */
+  }
+  
+  .team-goal-card-footer .goal-card-icon {
+    font-size: 30px;
+    color: #3fc67c;
+    flex-basis: 50px;
+  }
+  
+  .team-goal-card-footer .goal-card-content {
+      margin-left: 10px;
+    color: #4f6b5c;
+    flex-basis: 200px;
+    flex-grow: 1;
+  }
+  
+  .team-goal-card-footer .goal-card-img-container {
+    display: flex;
+    flex-direction: row;
+    flex-basis: 150px;
+  }
+  
+  .team-goal-card-footer .image-item img {
+    border-radius: 5px;
+  }
+  
+  .team-goal-card-footer .image-item .plus {
+      height: 30px;
+      width: 30px;
+      background-color: #505F6A;
+      color: #FFF;
+      border-radius: 5px;
+      text-align: center;
+      font-size: 10px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+  }

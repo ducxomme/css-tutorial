@@ -1,0 +1,61 @@
+/* .float-left {
+    float: left;
+    margin-right: 10px;
+}
+
+.float-right {
+    float: right;
+    margin-left: 10px;
+} */
+
+/* ======2====== */
+/* .menu {
+    list-style: none;
+    background-color: #EEE;
+}
+
+.menu li {
+    float: left;
+    padding: 8px 16px;
+    background-color: #DDD;
+}
+
+khong muon thang nao float ben trai cua no ca
+p {
+    clear: left;
+} */
+
+/* =======3======= */
+
+.header {
+    height: 100px;
+}
+
+/* .wrapper {
+    float: left;
+} */
+
+.sidebar {
+    float: left;
+    width: 20%;
+}
+/* 20% cua body */
+.main {
+    float: left;
+    width: 60%;
+}
+
+.right {
+    float: left;
+    width: 20%;
+}
+
+.wrapper:after {
+    content: '';
+    display: block;
+    clear: both;
+}
+.footer {
+    height: 200px;
+    margin-top: 20px;
+}

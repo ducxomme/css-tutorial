@@ -1,0 +1,28 @@
+/*
+    position: static* | relative | fixed | absolute | sticky
+
+- *absolute*: Chỉnh vị trí tương đối của element theo vị trí 
+            1. Của thằng cha nếu như cha có position: relative
+            2. Nếu cha không có position là relative thì chỉnh vị trí theo thằng Body
+    */
+
+.container {
+    width: 300px;
+    height: 300px;
+    background-color: #DDD;
+}
+
+.inner-container {
+    width: 200px;
+    height: 200px;
+    background-color: #888;
+    position: relative;
+}
+
+.child {
+    width: 100px;
+    height: 100px;
+    background-color: #0F517F; 
+    position: absolute;
+    bottom: 0;
+}

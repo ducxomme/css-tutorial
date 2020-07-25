@@ -1,0 +1,17 @@
+.px {
+    font-size: 32px;
+}
+
+/* 1 em = 1 lan thang cha */
+.em {
+    font-size: 2em;
+}
+
+/* 1rem = 1 lan thang root html = 16px
+    thay doi theo kich thuoc cua trinh duyet
+    friendly voi nguoi dung hon
+*/
+
+.rem {
+    font-size: 2rem ;
+}

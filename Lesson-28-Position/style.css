@@ -1,0 +1,37 @@
+/*
+    position: static* | relative | fixed | absolute | sticky
+*/
+/* relative la vi tri so voi vi tri ban dau cua element  */
+
+/* fixed la vi tri so voi trinh duyet */
+
+/* .container {
+    display: flex;
+} */
+
+.box {
+    width: 100px;
+    height: 100px;
+    color: aliceblue;
+}
+
+.red {
+    background-color: red;
+}
+
+
+.green {
+    background-color: green;
+    /* position: relative; */
+    /* left: 20px */
+}
+
+.blue {
+    background-color: blue;
+}
+
+.fixed {
+    position: fixed; 
+    right: 10px;
+    bottom: 10px;
+}

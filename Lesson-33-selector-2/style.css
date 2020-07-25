@@ -1,0 +1,27 @@
+a[target] {
+    color: red;
+}
+
+input[type="text"] {
+    border: 1px solid red;
+}
+
+/* all
+body p {
+    color: green;
+} */
+
+/*  is immediately next to
+p + a {
+    color: rgb(255, 0, 191);
+} */
+
+/* all p are immediate children 
+.container > p {
+    color: rgb(255, 0, 191); 
+}*/
+
+/* select all a that dung cung cap voi p
+p ~ a {
+    color: rgb(255, 0, 191); 
+} */

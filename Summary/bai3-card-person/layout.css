@@ -1,0 +1,39 @@
+.card-container {
+    font-family: sans-serif;
+    display: flex;
+    border: 1px solid rgb(231, 227, 227);
+    align-items: center;
+    padding: 10px 15px;
+    border-radius: 10px;
+    margin: 12px;
+}
+
+.card-container .img-profile {
+    height: 50px;
+    width: 50px;
+    background-image: url('https://loremflickr.com/50/50');
+    background-size: cover;
+    background-position: center;
+    border-radius: 25px;
+}
+
+.card-container .middle-content {
+    flex-grow: 1;
+    margin-left: 20px;
+}
+
+.card-container .person-name {
+    font-size: 20px;
+    padding: 0px;
+}
+
+.card-container .email-address {
+    font-size: 15px;
+    color: rgb(192, 189, 189)
+
+}
+
+.card-container .trash-bin {
+    font-size: 30px;
+    color: rgb(192, 66, 66);
+}

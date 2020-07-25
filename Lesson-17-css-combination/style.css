@@ -1,0 +1,24 @@
+/*
+    descendant selector (space)
+    child selector (>)
+    adjacent sibling selector (+): anh em  lien ke
+    general sibling selector (~): nhung ae tiep theo cua no
+*/
+
+/* Select all item-2 class in list-2 class*/
+/* .list-2 .item-2 {
+    color: red;
+}
+*/
+
+/* .list-1 > .item {
+    border: 1px solid #333;
+}  */
+
+/* .list-2 .item-2 + .item {
+    border: 1px solid rgb(167, 102, 102);
+} */
+
+.list-2 .item-1 ~ .item {
+    border: 1px solid rgb(167, 102, 102);
+}

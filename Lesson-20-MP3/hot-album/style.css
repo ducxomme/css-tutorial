@@ -1,0 +1,58 @@
+.hot-item {
+    height: 220px;
+    min-height: 200px;
+    width: 150px;
+    margin: 10px 5px;
+}
+
+.hot-item .content {
+    margin-top: 15px;
+    font-family: "Roboto","segoe ui",Helvetica,Arial,sans-serif;
+}
+
+.content .song-name {
+    font-weight: 400;
+    font-size: 14px;;
+}
+
+.content .singer {
+    opacity: 0.4;
+    font-size: 13px;
+    margin-top: 5px;
+}
+
+
+.album-square {
+    width: 150px;
+    height: 150px;
+    background-color: #DDD;
+    background-image: url('https://loremflickr.com/320/240');
+    background-size: cover;
+    background-position: center;
+    color: #FFF;
+    font-size: 60px;
+ }
+
+ .album-square .overlay {
+     height: 100%;
+     background-color: rgba(0, 0, 0, 0.6);
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     opacity: 0;
+     /* display: none;
+     visibility: hidden; */
+     transition: all 0.3s;
+ }
+
+.album-square .overlay:hover {
+    opacity: 1;
+}
+
+.album-square .overlay i {
+    transform: scale(0.8);
+    transition: all 0.3s;
+}
+.album-square:hover .overlay i {
+    transform: scale(1);
+}
